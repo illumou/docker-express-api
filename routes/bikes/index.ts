@@ -1,7 +1,7 @@
-const BikeRouter = require('express').Router()
+const BikeRouter = require('express').Router();
 
 BikeRouter.get('/', (req: any, res: any) => {
-    res.send(true)
-})
+    res.send(true);
+});
 
-export { BikeRouter }
+export {BikeRouter};

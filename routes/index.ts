@@ -1,9 +1,10 @@
-import express from 'express'
-const router = express.Router()
-import { BikeRouter } from './bikes'
-import { CarRouter } from './cars'
+import express from 'express';
 
-router.use('/bikes', BikeRouter)
-router.use('/cars', CarRouter)
+const router = express.Router();
+import {BikeRouter} from './bikes';
+import {CarRouter} from './cars';
 
-export { router }
+router.use('/bikes', BikeRouter);
+router.use('/cars', CarRouter);
+
+export {router};
